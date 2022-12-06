@@ -85,7 +85,7 @@ def main(eps = 0.01, f = f1, fp = f1p, tol = 1e-4):
 
 
 if __name__ == '__main__':
-    zz = main(0.0005, f1, f1p, tol = 1e-2)
+    zz = main(0.06, f1, f1p, tol = 1e-2)
     im = Image.fromarray(zz)
     im.save("Newton_fractal_x5_x_3.png")
 
